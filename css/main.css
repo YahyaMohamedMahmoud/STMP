@@ -3,13 +3,13 @@ html {
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
   scroll-behavior: smooth;
-   overflow-x: clip;
+   /* overflow-x: clip; */
   width: 100%;
 }
 
 body {
   margin: 0;
-  overflow-x: clip;
+  /* overflow-x: clip; */
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -7043,7 +7043,7 @@ iframe {
 @media (max-width: 768px) {
 .section_hero {
     position: relative;
-    overflow: hidden; /* 🔥 أهم سطر */
+    overflow: hidden;
 }
 .dropbox-video-embed {
     position: absolute;
@@ -7060,6 +7060,6 @@ iframe {
     object-fit: cover;
 }
  .dropbox-video-embed {
-        transform: scale(1.05); /* أو 1 */
+        transform: scale(1.05);
   }
 }
