@@ -12366,3 +12366,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
   }, 1000);
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const navLinks = document.querySelectorAll('.m-nav-overlay .navlink');
+    const closeBtn = document.querySelector('.m-nav-toggle-close');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            if (closeBtn) {
+                closeBtn.click(); // يشغّل Webflow interaction نفسها
+            }
+        });
+    });
+});
