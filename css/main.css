@@ -3,11 +3,13 @@ html {
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
   scroll-behavior: smooth;
+   overflow-x: clip;
+  width: 100%;
 }
 
 body {
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
@@ -215,6 +217,7 @@ td, th {
 
 * {
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 html {
@@ -4083,6 +4086,7 @@ display: flex;
   inset: 0%;
 }
 
+
 .hero-content {
   z-index: 2;
   width: 100%;
@@ -4564,6 +4568,7 @@ display: flex;
     background-color: transparent;
     border: 1px solid black;
         /* font-family: Avenirnextcyr Demi, sans-serif; */
+        font-size: 16px;
 
 }
 
@@ -6545,6 +6550,10 @@ iframe {
   .coffee-hover-object_3 {
     bottom: 4rem;
   }
+  .section_roast {
+    height: 100vh;
+    position: relative;
+}
 }
 
 @media screen and (max-width: 479px) {
@@ -6793,8 +6802,14 @@ iframe {
   }
 
   .section_harvest {
-    height: 200vh;
+    height: 100vh;
   }
+
+  .footer-container {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
 
   .button-round {
     bottom: 4rem;
@@ -6860,7 +6875,7 @@ iframe {
   }
 
   .process-image_wrapper {
-    height: 25rem;
+    height: 40rem;
   }
 
   .section_roast {
@@ -7023,4 +7038,28 @@ iframe {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+@media (max-width: 768px) {
+.section_hero {
+    position: relative;
+    overflow: hidden; /* 🔥 أهم سطر */
+}
+.dropbox-video-embed {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.3);
+    transform-origin: center;
+}
+.w-background-video,
+.w-background-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .dropbox-video-embed {
+        transform: scale(1.05); /* أو 1 */
+  }
 }
