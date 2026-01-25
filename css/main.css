@@ -3634,6 +3634,7 @@ figcaption {
   font-weight: 600;
   color: white;
   margin-bottom: 4px;
+    font-family: 'Avenirnextcyr Demi';
 }
 
 .address {
@@ -7046,7 +7047,7 @@ iframe {
 
 @font-face {
   font-family: 'Avenirnextcyr Demi';
-  src: url('https://cdn.prod.website-files.com/664268688772a2bfa0bdbd2d/664273bc95efec625cc5a911_AvenirNextCyr-Demi.woff2') format('woff2');
+  src: url('../fonts/Marcellus-Regular.ttf') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -7060,7 +7061,7 @@ iframe {
 }
 @font-face {
   font-family: 'Avenirnextltpro';
-  src: url('https://cdn.prod.website-files.com/664268688772a2bfa0bdbd2d/6643289068f40127d59d55dd_AvenirNextLTPro-Regular.otf') format('opentype');
+  src: url('../fonts/Marcellus-Regular.ttf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
