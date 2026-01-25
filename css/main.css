@@ -4445,7 +4445,7 @@ width: 8.1rem;
   border-radius: 1rem;
   width: 45rem;
   max-width: 45rem;
-  height: 62rem;
+  height: 100%;
   overflow: hidden;
 }
 .process-image_wrapper video {
