@@ -6318,7 +6318,7 @@ iframe {
   }
 
   .text-size-regular, .text-size-regular.smaller {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .text-size-regular {
@@ -6851,7 +6851,7 @@ iframe {
   }
 
   .section_harvest {
-    height: 75vh;
+    height: 85vh;
   }
 
   .footer-container {
@@ -7109,4 +7109,7 @@ iframe {
  .dropbox-video-embed {
         transform: scale(1.05);
   }
+  .container-large.space-between {
+    justify-content: end;
+}
 }
