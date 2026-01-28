@@ -6144,6 +6144,29 @@ iframe {
     font-size: .875rem;
   }
 
+  .hero-bg{
+    background-image: url("../images/BG-Sec1.webp");
+  }
+  .container-large {
+    height: 88%;
+    justify-content: end;
+
+}
+.harvest-image{
+    background-image: url("../images/BG-Sec2.webp");
+    position: relative;
+
+}
+.harvest-image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000067;  
+}
+
   .padding-xlarge {
     padding: 2rem;
   }
